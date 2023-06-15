@@ -23,34 +23,14 @@
       color: #1e90ff; /* Lijepa nijansa plave */
     }
 
-    /* CSS for navigation bar */
-    nav {
-      background-color: #333;
-      color: #fff;
-      padding: 10px;
-    }
-
-    nav ul {
-      list-style-type: none;
-      margin: 0;
-      padding: 0;
-      display: flex;
-      justify-content: center;
-    }
-
-    nav ul li {
-      margin: 0 10px;
-    }
-
-    nav ul li a {
-      color: #fff;
-      text-decoration: none;
-    }
-
     /* CSS for main content */
     main {
       padding: 20px;
       text-align: center;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      background-color: #f2f2f2;
     }
 
     main h2 {
@@ -60,6 +40,7 @@
       display: inline-block;
       position: relative;
       transition: color 0.5s;
+      margin-bottom: 10px;
     }
 
     main h2:hover {
@@ -71,16 +52,6 @@
   <header>
     <h1>POGODI BROJ</h1>
   </header>
-
-  <nav>
-    <ul>
-      <li><a href="#">Home</a></li>
-      <li><a href="#">About</a></li>
-      <li><a href="#">Help</a></li>
-      <li><a href="#">Email</a></li>
-    </ul>
-  </nav>
-
   <main>
     <h2>Petar@gmail.com</h2>
   </main>
